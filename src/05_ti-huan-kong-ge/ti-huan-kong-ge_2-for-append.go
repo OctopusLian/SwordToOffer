@@ -1,3 +1,11 @@
 func replaceSpace(s string) string {
-	return strings.Replace(s, " ", "%20", -1)
+    ans := ""
+    for _,v := range s{
+        if v == ' '{
+            ans = ans + "%20"
+        } else {
+            ans = ans + string(v)
+        }
+    }
+    return ans
 }

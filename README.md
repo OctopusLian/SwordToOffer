@@ -8,7 +8,7 @@
 - [04_二维数组中的查找](./src/04_er-wei-shu-zu-zhong-de-cha-zhao/)  
 - [05_替换空格](./src/05_ti-huan-kong-ge/)  
 - [06_从尾到头打印链表](./src/06_cong-wei-dao-tou-da-yin-lian-biao/)  
-- 07_重建二叉树  
+- [07_重建二叉树](./src/07_zhong-jian-er-cha-shu/)  
 - 08_二叉树的下一个节点  
 - 09_用两个栈实现队列  
 - 10_斐波那契数列  

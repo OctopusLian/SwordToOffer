@@ -1,17 +1,14 @@
-package main
-
-import "strconv"
-
 func findNthDigit(n int) int {
-	digit := 1
-	var start int32 = 1
-	var count int32 = 9
-	for n > int(count) {
-		n -= int(count)
-		digit += 1
+	var digst = 1
+	var count = 9
+	var start = 1
+	for n-count > 0 {
+		n -= count
+		digst += 1
 		start *= 10
-		count = int32(digit) * start * 9
+		count = digst * start * 9
 	}
-	var num int32 = start + (n-1)/digit
-	return strconv.Itoa()
+	var num = start + (n-1)/digst
+	var res = strconv.Itoa(num)[(n-1)%digst] - '0'
+	return int(res)
 }

@@ -1,3 +1,14 @@
+/*
+ * @Description:
+ * @Author: neozhang
+ * @Date: 2022-04-28 22:03:18
+ * @LastEditors: neozhang
+ * @LastEditTime: 2022-04-28 23:05:37
+ */
+package main
+
+import "sort"
+
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 	for _, nums := range matrix {
 		//遍历数组切片，查找数组中是否含有target值，如果查找不到，返回值是target应该插入数组的位置（会保持数组的递增顺序）
